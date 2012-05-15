@@ -1,0 +1,4 @@
+export JRUBY_OPTS=--1.9
+export RUBYOPT="rubygems"
+export RUBYLIB="."
+rvm use jruby-1.6.7@logstash --create
